@@ -1,0 +1,146 @@
+/*Global Reset*/
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    height: 100%;
+    width: 100%;
+    background-color: hsl(0, 0%, 95%);
+    position: relative;
+}
+
+
+
+main {height: 100%;
+      width: 100vw;
+      }
+
+header {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(179, 100%, 13%);
+}
+
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+
+   
+
+/*Container*/
+
+
+.container { width: 909px;
+             height: 500px;
+             border-radius: 10px;
+             overflow: hidden;
+             display: flex;
+             position: absolute;
+             top: 50%;
+             left: 50%;
+             transform: translate(-50%, 50%);
+}
+
+
+
+@media screen and (max-width: 915px) {
+    .container {
+        width: 303px;
+        height: 1500px;
+        flex-direction: column;
+        align-items: center;
+        transform: translate(-50%, 0%);
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
+
+
+
+/*Cards*/
+
+
+.card {
+    flex-basis: 33.333333334%;
+    height: 500px;
+    padding: 47px;
+  
+    
+}
+
+.card-sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card-suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+
+
+
+/*Typography*/
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Text';
+    text-transform: uppercase;
+    font-size: 35px;
+    padding: 35px 0 35px 0;
+}
+
+p {
+    padding-bottom: 100px;
+}
+
+/* Button */
+
+button {
+    border-radius: 25px;
+    width: 150px;
+    height: 47px;
+    background-color: hsl(0, 0%, 95%);
+    letter-spacing: 0.5px;
+    
+}
+
+    button:hover {
+        border: 2px solid hsl(0, 0%, 95%);
+        background-color: transparent;
+        color: hsl(0, 0%, 95%);
+        cursor: pointer;
+    }
+
+.button__sedans {
+    color: hsl(31, 77%, 52%);
+}
+
+.button__suvs {
+    color: hsl(184, 100%, 22%);
+}
+
+.button__luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+
+
+
