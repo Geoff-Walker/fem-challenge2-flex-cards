@@ -78,8 +78,7 @@ header {
     flex-basis: 33.333333334%;
     height: 500px;
     padding: 47px;
-  
-    
+    box-sizing: border-box;
 }
 
 .card-sedans {
@@ -88,10 +87,13 @@ header {
 
 .card-suvs {
     background-color: hsl(184, 100%, 22%);
+    z-index: 20;
 }
 
 .card-luxury {
     background-color: hsl(179, 100%, 13%);
+    border-left: 2px solid hsl(179, 100%, 13%);
+    z-index: 19;
 }
 
 
